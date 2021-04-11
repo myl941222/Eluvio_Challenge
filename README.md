@@ -32,4 +32,5 @@ In the RNN model, I create a LSTM (Short-Term Memory network). There are embeedi
 I also create a report summary:
 
 ![image](https://user-images.githubusercontent.com/60521234/114318681-09e16a00-9ac3-11eb-8fc4-ab9141c8bab7.png)
+
 The only concern I have is I noticed the data is unbalanced. The '1' is about 310000 and '0' is about 75000 in 'new' column. and I should use up or down sample minority class technique before split the train and test set.
